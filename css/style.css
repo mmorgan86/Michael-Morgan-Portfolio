@@ -3,7 +3,8 @@
 ----------------------------------------
     FONT FAMILY: Roboto Condensed
     FONT FAMILY: Open Sans
-    FONT SIZE: 14px;
+    FONT SIZE: 14px
+    BLUE COLOR: #0080ff
 =======================================*/
 
 /*======================================
@@ -74,6 +75,17 @@ HEADER/NAV BUTTON STYLE
 #navRight li {
   display: inline-block;
   margin: 2em;
+}
+
+#navRight li a {
+  text-decoration: none;
+}
+
+#navRight li a:hover {
+  text-decoration-color: white;
+  color: white;
+  border-bottom: 3px solid #0080ff;
+  padding-bottom: 6px;
 }
 
 div .row {
