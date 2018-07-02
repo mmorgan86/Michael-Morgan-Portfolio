@@ -1,0 +1,246 @@
+/*======================================
+                DEFAULT
+----------------------------------------
+    FONT FAMILY: Roboto Condensed
+    FONT FAMILY: Open Sans
+    FONT SIZE: 14px;
+=======================================*/
+
+/*======================================
+        DEFAULT STYLING
+=======================================*/
+/* body * {
+  box-sizing: border-box;
+} */
+
+html, body {
+   height: 100%;
+}
+
+body {
+  font-size: 14px;
+  color: gray;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+}
+
+section {
+  display: block;
+  padding-top: 120px;
+  min-height: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+header {
+  display: block;
+  height: 90px;
+  width: auto;
+  background-color: black;
+  margin-top: 0px;
+  padding: 0px;
+  letter-spacing: 3px;
+}
+
+/*****************************
+HEADER/NAV BUTTON STYLE
+******************************/
+#btn_hire button {
+  margin: 10px;
+  display: none;
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 50px;
+}
+
+/* Right navbar style */
+#navRight {
+  display: inline-block;
+  width: 100%;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#navRight li {
+  display: inline-block;
+  margin: 2em;
+}
+
+div .row {
+  text-align: center;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  margin: 4px;
+  padding: 20px;
+  border: 2px solid gray;
+}
+
+/*======================================
+        HOME SECTION STYLING
+=======================================*/
+#home {
+    background: none;
+    height: 100vh;
+}
+
+#home-bg-img {
+    position: fixed;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+#home-bg-overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#home-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-inner {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading {
+    display: none;
+}
+
+#home-heading h1{
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+#home-heading-1 {
+  padding-bottom: 25px;
+}
+
+#home-heading-2 {
+  color: #0080ff !important;
+  text-shadow: 1px 1px gray;
+}
+
+hr {
+  text-align: center;
+  width: 50%;
+}
+
+/*======================================
+        SKILLS SECTION STYLING
+=======================================*/
+.section_title {
+  margin: 20px;
+  text-align: center;
+}
+
+#skills li {
+  margin-bottom: 20px;
+  list-style: none;
+  text-align: left;
+}
+
+/*======================================
+        PROJECTS SECTION STYLING
+=======================================*/
+#projects {
+  background-color: rgb(212, 212, 212);
+  padding: 20px 0;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.section_info {
+  font-size: 25px;
+}
+
+.card {
+  outline-style: groove;
+  outline-color: rgb(187, 196, 200);
+  outline-width: 5px;
+  text-align: center;
+}
+
+.card-title {
+  text-decoration: none;
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+/*======================================
+        CONTACT SECTION STYLING
+=======================================*/
+#contact p {
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/*======================================
+        FOOTER SECTION STYLING
+=======================================*/
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 90px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 20px;
+  display: inline-block;
+  margin: 5px 10px 0 10px;
+  padding: 0;
+}
+
+#footer-bottom {
+  float: left;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
