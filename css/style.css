@@ -63,6 +63,10 @@ HEADER/NAV BUTTON STYLE
   border-radius: 50px;
 }
 
+nav {
+  text-align: right;
+}
+
 /* Right navbar style */
 .navRight {
   display: inline-block;
@@ -71,7 +75,6 @@ HEADER/NAV BUTTON STYLE
   font-size: 16px;
   font-weight: 500;
   background-color: black;
-  color: white;
 }
 
 .navRight li {
@@ -106,6 +109,16 @@ div .row {
   margin: 4px;
   padding: 20px;
   border: 2px solid gray;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-color: #0080ff !important;
+  border: 1px solid rgb(166, 166, 166); 
+}
+
+.navbar-toggler-icon {
+  width: 3em;
+  height: 3em;
 }
 
 /*======================================
