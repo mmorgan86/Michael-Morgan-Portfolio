@@ -10,9 +10,9 @@
 /*======================================
         DEFAULT STYLING
 =======================================*/
-/* body * {
-  box-sizing: border-box;
-} */
+* {
+  text-decoration: none;
+}
 
 html, body {
    height: 100%;
@@ -64,28 +64,36 @@ HEADER/NAV BUTTON STYLE
 }
 
 /* Right navbar style */
-#navRight {
+.navRight {
   display: inline-block;
   width: 100%;
   list-style: none;
   font-size: 16px;
   font-weight: 500;
+  background-color: black;
+  color: white;
 }
 
-#navRight li {
+.navRight li {
   display: inline-block;
   margin: 2em;
 }
 
-#navRight li a {
+.navbar-light .navbar-nav .nav-link {
   text-decoration: none;
+  color: #0080ff;
 }
 
-#navRight li a:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   text-decoration-color: white;
   color: white;
   border-bottom: 3px solid #0080ff;
   padding-bottom: 6px;
+}
+
+.bg-dark {
+  background-color: black !important;
+  color: white !important;
 }
 
 div .row {
