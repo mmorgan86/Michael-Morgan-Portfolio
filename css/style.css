@@ -95,12 +95,12 @@ nav {
 
 .navbar-light .navbar-nav .nav-link {
   text-decoration: none;
-  color: #0080ff;
+  color: #0080ff !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   text-decoration-color: white;
-  color: white;
+  color: white !important;
   border-bottom: 3px solid #0080ff;
   padding-bottom: 6px;
 }
@@ -218,7 +218,6 @@ hr {
 =======================================*/
 #projects {
   background-color: rgb(212, 212, 212);
-  padding: 20px 0;
 }
 
 .subtitle {
