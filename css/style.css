@@ -76,14 +76,13 @@ HEADER/NAV BUTTON STYLE
 
 nav {
   text-align: right;
-  height: 90px;
 }
 
 /* Right navbar style */
 .navRight {
   display: inline-block;
   width: 100%;
-  height: 90px;
+  /* height: 100px; */
   list-style: none;
   font-size: 18px;
   font-weight: 500;
