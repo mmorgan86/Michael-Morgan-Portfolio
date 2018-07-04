@@ -245,6 +245,10 @@ hr {
   color: black;
 }
 
+.card a:hover {
+  text-decoration: none;
+}
+
 /*======================================
         CONTACT SECTION STYLING
 =======================================*/
