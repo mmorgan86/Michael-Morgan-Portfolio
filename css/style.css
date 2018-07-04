@@ -54,6 +54,15 @@ header {
 /*****************************
 HEADER/NAV BUTTON STYLE
 ******************************/
+#logo {
+  width: 100px;
+  height: auto;
+  margin: 4px;
+  padding: 20px;
+  border: 2px solid gray;
+}
+
+/* These buttons have a display none for now. Will use later */
 #btn_hire button {
   margin: 10px;
   display: none;
@@ -63,6 +72,7 @@ HEADER/NAV BUTTON STYLE
 .btn-group-lg>.btn, .btn-lg {
   border-radius: 50px;
 }
+/* end button display none style */
 
 nav {
   text-align: right;
@@ -106,13 +116,7 @@ div .row {
   text-align: center;
 }
 
-#logo {
-  width: 100px;
-  height: auto;
-  margin: 4px;
-  padding: 20px;
-  border: 2px solid gray;
-}
+/* HAMBURGER BUTTON STYLE */
 
 .navbar-light .navbar-toggler-icon {
   background-color: #0080ff !important;
@@ -120,8 +124,8 @@ div .row {
 }
 
 .navbar-toggler-icon {
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
 }
 
 /*======================================
