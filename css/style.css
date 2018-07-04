@@ -135,6 +135,7 @@ div .row {
 #home-bg-img {
     position: fixed;
     background-size: cover;
+    background-size: auto;
     top: 50%;
     left: 50%;
     min-width: 50%;
@@ -245,6 +246,10 @@ hr {
 /*======================================
         CONTACT SECTION STYLING
 =======================================*/
+#contact {
+  height: 100%;
+}
+
 #contact p {
   font-size: 20px;
   width: 50%;
@@ -278,7 +283,7 @@ footer ul li {
 #footer-bottom {
   float: left;
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
   left: 20px;
 }
 
@@ -286,8 +291,23 @@ footer ul li {
       MEDIA QUERIES
 ******************************/
 
-  @media screen only (max-width:700px) {
+  @media screen and (max-width:780px) {
+    #home-heading h1 {
+      font-size: 40px;
+    }
+
     h2 {
-      font-size: 32px;
+      font-size: 36px;
+    }
+
+    #contact p {
+      width: 75%;
+    }
+  }
+
+  @media screen and (max-width:380px) {
+    #contact p {
+      font-size:18px;
+      width: 85%;
     }
   }
