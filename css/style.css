@@ -254,6 +254,8 @@ hr {
 .card-title {
   text-decoration: none;
   color: black;
+  border-bottom: 1px solid gray;
+  padding-bottom: 35px;
 }
 
 .card-text {
