@@ -198,12 +198,14 @@ div .row {
 hr {
   text-align: center;
   width: 50%;
+  color: black;
 }
 
 /*======================================
         SKILLS SECTION STYLING
 =======================================*/
 .section_title {
+  color: black;
   margin: 20px;
   text-align: center;
 }
@@ -218,13 +220,19 @@ hr {
         PROJECTS SECTION STYLING
 =======================================*/
 #projects {
-  background-color: rgb(212, 212, 212);
+  background-color: #0080ff;
   padding: 20px 0 100px 0;
+}
+
+#projects hr {
+  display: none;
 }
 
 .subtitle {
   text-align: center;
+  border-bottom: 1px solid black;
 }
+
 
 .section_info {
   font-size: 25px;
