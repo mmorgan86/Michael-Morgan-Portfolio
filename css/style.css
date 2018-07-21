@@ -3,7 +3,7 @@
 ----------------------------------------
     FONT FAMILY: Roboto Condensed
     FONT FAMILY: Open Sans
-    FONT SIZE: 14px
+    MAIN FONT SIZE: 14px
     BLUE COLOR: #0080ff
 =======================================*/
 
@@ -218,6 +218,7 @@ hr {
 =======================================*/
 #projects {
   background-color: rgb(212, 212, 212);
+  padding: 20px 0 100px 0;
 }
 
 .subtitle {
@@ -232,7 +233,8 @@ hr {
   outline-style: groove;
   outline-color: rgb(187, 196, 200);
   outline-width: 5px;
-  text-align: center;
+  text-align: center;  
+  margin: 20px;
 }
 
 .card-title {
@@ -280,7 +282,6 @@ hr {
 
 #contact p {
   font-size: 20px;
-  /* width: 50%; */
   text-align: center;
   margin: 0 auto;
 }
@@ -308,11 +309,13 @@ footer ul li {
   padding: 0;
 }
 
-#footer-bottom {
-  float: left;
+#footer-bottom p {
+  /* float: left;
   position: relative;
   bottom: 10px;
-  left: 20px;
+  left: 20px; */
+  text-align: center;
+  margin: 0 auto;
 }
 
 /*****************************
