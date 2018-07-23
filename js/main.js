@@ -1,3 +1,4 @@
+
 // HEADER TEXT FADE IN ON PAGE LOAD
 $(document).ready(function() {
     $('#home-heading').fadeIn(2000);
@@ -11,5 +12,10 @@ $(document).ready(function() {
     }, 500);
   });
 });
+
+new WOW().init();
+
+
+
 
 
