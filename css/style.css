@@ -11,7 +11,8 @@
         DEFAULT STYLING
 =======================================*/
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -100,7 +101,8 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  text-decoration-color: white;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
   color: white !important;
   border-bottom: 3px solid #0080ff;
   padding-bottom: 6px;
@@ -145,7 +147,10 @@ div .row {
     min-height: 50%;
     width: auto;
     height: auto;
-    transform: translateX(-50%) translateY(-50%);
+    height: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
     z-index: -1;
 }
 
@@ -247,8 +252,7 @@ hr {
   outline-color: rgb(187, 196, 200);
   outline-width: 5px;
   text-align: center;  
-  margin: 20px;
-  
+  margin: 20px;  
 }
 
 .card-title {
@@ -264,29 +268,61 @@ hr {
 
 .card a:hover {
   text-decoration: none;
-  animation: recent_work_scale 0.3s ease-out forwards;
+  -webkit-animation: recent_work_scale 0.3s ease-out forwards;
+          animation: recent_work_scale 0.3s ease-out forwards;
 }
 
 /* recent work scale on hover animation */
-@keyframes recent_work_scale {
+@-webkit-keyframes recent_work_scale {
   0% {
-    transform:scale(1);
+    -webkit-transform:scale(1);
+            transform:scale(1);
   }
 
   25% {
-    transform: scale(1.05) rotate(-5deg);
+    -webkit-transform: scale(1.05) rotate(-5deg);
+            transform: scale(1.05) rotate(-5deg);
   }
 
   50% {
-    transform:scale(1.05) rotate(0deg);
+    -webkit-transform:scale(1.05) rotate(0deg);
+            transform:scale(1.05) rotate(0deg);
   }
 
   75% {
-    transform: scale(1..075) rotate(5deg);
+    -webkit-transform: scale(1..075) rotate(5deg);
+            transform: scale(1..075) rotate(5deg);
   }
 
   100% {
-    transform: scale(1.1) rotate(0deg);
+    -webkit-transform: scale(1.1) rotate(0deg);
+            transform: scale(1.1) rotate(0deg);
+  }
+}
+@keyframes recent_work_scale {
+  0% {
+    -webkit-transform:scale(1);
+            transform:scale(1);
+  }
+
+  25% {
+    -webkit-transform: scale(1.05) rotate(-5deg);
+            transform: scale(1.05) rotate(-5deg);
+  }
+
+  50% {
+    -webkit-transform:scale(1.05) rotate(0deg);
+            transform:scale(1.05) rotate(0deg);
+  }
+
+  75% {
+    -webkit-transform: scale(1..075) rotate(5deg);
+            transform: scale(1..075) rotate(5deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1.1) rotate(0deg);
+            transform: scale(1.1) rotate(0deg);
   }
 }
 /*======================================
