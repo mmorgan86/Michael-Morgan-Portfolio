@@ -13,8 +13,15 @@ $(document).ready(function() {
   });
 });
 
+// WOW ANIMATION
 new WOW().init();
 
+// remove wow class for projects section on mobile
+$(window).resize(function(){
+  if($(window).width()<500){
+   $('.project').removeClass('.wow');
+  }
+ });
 
 
 
